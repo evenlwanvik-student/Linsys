@@ -1,0 +1,2 @@
+#include <winuser.rh>
+1 RT_MANIFEST "part3_prob3_LQR.auto.manifest"
