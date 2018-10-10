@@ -1,2 +1,2 @@
 # Linsys
-Linear System Theory
+TTK4115 - Linear System Theory
