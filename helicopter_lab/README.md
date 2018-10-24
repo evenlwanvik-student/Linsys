@@ -29,10 +29,17 @@ The report, and assignment in general, was divided into four parts:
   - *Problem 1*: Compute the equations of motion (differential equations) for the joint angles.
   - *problem 2*: Linearize the system around the equilibrium point of the system.
   - *problem 3*: Use feedforward (directly from joystick) and compare the physical behaviour with the theoretical models.
-  - *problem 4*: 
+  - *problem 4*: Convert outputs to the appropriate values and determine motor force constant and voltage to maintain equilibrium.
 * **PART II**: Monovariable Control
-* **PART III**: Monovariable Control
+  - *Problem 1*: Design a PD controller for the pitch angle.
+  - *problem 2*: Design a P controller for the travel rate, which will work as a referennce for the pitch controller. 
+* **PART III**: Multivariable Control (LQR)
+  - *Problem 1*: Find the model for the angles we want to control with state-feedback (pitch and elevation rate).
+  - *Problem 2*: Check controllability and find feedback matrix based on the LQR cost function.
+  - *Problem 3*: Modify controller to include an integral effect for elevation rate and the pitch angle (PI controller).
 * **PART IV**: State Estimation
+  - *Problem 1*: Derive a state-space model for the system where the angles of the joints are measured.
+  - *Problem 2*: Examine observability of system and create a linear observer for the system.
+  - *Problem 3*: Examine observability and try to create a linear observer when only two joint angles are measured (i.e. one is missing).
 
-
-
+## Endnotes?
