@@ -1,6 +1,6 @@
 # Helicopter lab assignment
 
-A report was written and an oral presentation + demonstration of the finished product was given. The report contains all the solutions to the problems introduced in the assignment, which is presented in a brief and to the point manner. We had four whole days (8 hours each) reserved in the lab, while the report and relevant mathematical analysis, deductions and calculations were dealt with apart from the given given lab hours.
+A report was written and an oral presentation + demonstration of the finished product was given, which accounted for 30% of the final grade of the course. The report contains all the solutions to the problems introduced in the assignment, which is presented in a brief and to the point manner. We had four whole days (8 hours each) reserved in the lab, while the report and relevant mathematical analysis, deductions and calculations were dealt with apart from the given given lab hours. 
 
 ## Purpose of lab
 The purpose of this assignment was to:
@@ -21,4 +21,18 @@ The helicopter consits of a base on which a long arm is attached. The helicopter
 The lab stations use the Quanser [Q8-USB data aquisition (DAQ) cards](https://www.quanser.com/products/q8-usb-data-acquisition-device/) for both inputs and outputs. All the joint angles, i.e. the pitch, elevation and travel, are measured using special counter circuits to read the encoders on the helicopter. The control signals (motor voltages) are set using a digital-to-analog converter (DAC). This signal is amplified by a linear amplifier inside the power suppply and fed to the motors.
 
 A joystick is used for controlling the helicopter. The joystick displacement is measured by potentiometers, which are transmitted to the PC via USB. A *Joystick* Simulink block interprets and translates the joystick displacement into a value from -1 to 1.
+
+## The report
+
+The report, and assignment in general, was divided into four parts:
+* **PART I**: Mathematical modeling
+  - *Problem 1*: Compute the equations of motion (differential equations) for the joint angles.
+  - *problem 2*: Linearize the system around the equilibrium point of the system.
+  - *problem 3*: Use feedforward (directly from joystick) and compare the physical behaviour with the theoretical models.
+  - *problem 4*: 
+* **PART II**: Monovariable Control
+* **PART III**: Monovariable Control
+* **PART IV**: State Estimation
+
+
 
