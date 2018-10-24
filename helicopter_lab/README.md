@@ -22,7 +22,7 @@ The lab stations use the Quanser [Q8-USB data aquisition (DAQ) cards](https://ww
 
 A joystick is used for controlling the helicopter. The joystick displacement is measured by potentiometers, which are transmitted to the PC via USB. A *Joystick* Simulink block interprets and translates the joystick displacement into a value from -1 to 1.
 
-## The report
+## Content of the report (and excecution order of lab excercises)
 
 The report, and assignment in general, was divided into four parts:
 * **PART I**: Mathematical modeling
