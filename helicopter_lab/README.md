@@ -11,11 +11,10 @@ The purpose of this assignment was to:
 
 ## Description of the system
 
-![alt text](https://github.com/evenlwanvik-student/Linsys/blob/master/helicopter_lab/helicopter_forces.png | width=100)
-
 <p align="center">
-<img src="https://github.com/evenlwanvik-student/Linsys/blob/master/helicopter_lab/helicopter_forces.png" alt="alt text" width="Model that shows the forces and joint angles of the helicopter" height="300">
+<img src="https://github.com/evenlwanvik-student/Linsys/blob/master/helicopter_lab/helicopter_forces.png" alt="Model that shows the forces and joint angles of the helicopter" height="300">
 </p>
+
 
 The helicopter consits of a base on which a long arm is attached. The helicopter head, with two motors and propellers, is attached to one side of the arm, which is supported by a counterweight placed on the opposite side. The helicopter has three rotational joints; travel, elivation, and pitch (see picture). The travel refers to the rotation about the vertical axis (about the base), elivation is the movement of the head up and down in the vertical plane, and pitch is the tilt of the head about the arm. The helicopter is solely actuated by the two motors on the helicopter head, which are connected to the propellers. The propellers delivers the necessary thrust to lift the helicopter head from the table.
 
