@@ -13,4 +13,4 @@ The purpose of this assignment was to:
 
 The helicopter consits of a base on which a long arm is attached. The helicopter head, with two motors and propellers, is attached to one side of the arm, which is supported by a counterweight placed on the opposite side. The helicopter has three rotational joints; travel, elivation, and pitch. The travel refers to the rotation about the vertical axis (about the base), elivation is the movement of the head up and down in the vertical plane, and pitch is the tilt of the head about the arm.
 
-test
+![alt text](https://github.com/evenlwanvik-student/Linsys/blob/master/helicopter_lab/helicopter_lab_report.pdf)
