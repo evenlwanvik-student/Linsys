@@ -1,0 +1,10 @@
+%compass_deg_0005 = compass_deg;
+compass_deg_005 = compass_deg;
+T = compass_deg_0005.time
+psi = compass_deg_0005.signals.values
+plot(T, compass_deg_0005.signals.values)
+
+% find min and max amplitude of oscillations
+window = 500:2500;
+A_min = min(psi(window))
+A_max = max(psi(window))
